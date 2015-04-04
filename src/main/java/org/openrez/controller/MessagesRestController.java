@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessagesRestController {
 
 	
-	@RequestMapping("/services/messages/findRest")
+	@RequestMapping("/services/messages/findRest.json")
 	public Message findRest() {
 		return new Message("hola amigos", "h@grupoh.com", "kim@yahoo.com")  ;
 	}	
